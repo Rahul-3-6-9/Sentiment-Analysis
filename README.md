@@ -6,7 +6,6 @@ This project performs sentiment analysis on the Amazon Fine Food Reviews dataset
 
 1. **VADER (Valence Aware Dictionary and sEntiment Reasoner)**: A lexicon-based, bag-of-words approach for sentiment analysis.
 2. **RoBERTa Pretrained Model**: A transformer-based model from HuggingFace for advanced sentiment classification.
-3. **HuggingFace Pipeline**: A high-level interface for performing sentiment analysis using pre-trained models.
 
 The notebook processes a subset of the dataset (first 500 reviews) and compares the sentiment scores from these techniques with the user-provided review scores. It also visualizes the results and highlights discrepancies between model predictions and actual ratings.
 
@@ -108,13 +107,3 @@ The notebook is organized into the following steps:
 - Incorporate additional sentiment analysis techniques or models for comparison.
 - Add preprocessing steps (e.g., text cleaning, removing stopwords) to improve model performance.
 - Explore advanced visualization techniques to better understand sentiment distribution.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Acknowledgments
-
-- The Amazon Fine Food Reviews dataset is provided by SNAP (Stanford Network Analysis Project) via Kaggle.
-
-# Sentiment analysis techniques utilize the `nltk` library for VADER and HuggingFace's `transformers` for RoBERTa and pipeline methods.
