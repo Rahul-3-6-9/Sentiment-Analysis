@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project performs sentiment analysis on the Amazon Fine Food Reviews dataset using Python. It employs three different techniques to analyze the sentiment of the reviews:
+This project performs sentiment analysis on the Amazon Fine Food Reviews dataset using Python. It employs two different techniques to analyze the sentiment of the reviews:
 
 1. **VADER (Valence Aware Dictionary and Sentiment Reasoner)**: A lexicon-based, bag-of-words approach for sentiment analysis.
 2. **RoBERTa Pretrained Model**: A transformer-based model from HuggingFace for advanced sentiment classification.
