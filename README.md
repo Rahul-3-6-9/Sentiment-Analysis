@@ -72,8 +72,7 @@ The notebook is organized into the following steps:
 
    - **VADER**: Applies the VADER sentiment analyzer to compute positive, negative, and neutral sentiment scores for each review.
    - **RoBERTa**: Uses a pre-trained RoBERTa model from HuggingFace to calculate sentiment scores.
-   - **HuggingFace Pipeline**: Leverages the HuggingFace `pipeline` for a simplified sentiment analysis workflow.
-
+     
 4. **Review Examples**:
 
    - Identifies and displays reviews where the model predictions significantly differ from the user-provided scores (e.g., positive sentiment for 1-star reviews and negative sentiment for 5-star reviews).
